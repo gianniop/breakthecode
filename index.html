@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mastermind</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Break the code!</h1>
+	</header>
+	<section>
+		<div class="hidden">
+			<div class="hidden-wrapper">
+				<h2>Hidden Code : </h2>
+				<div class="hidden-selection group">
+					<div class="box" data-color="8" ></div>
+					<div class="box" data-color="8"></div>
+					<div class="box" data-color="8"></div>
+					<div class="box" data-color="8"></div>
+				</div>
+				<div class="init">
+					<button class="start-game">Restart</button>
+				</div>
+			</div>
+		</div>
+		<h4 class="remaining-attempts">Break the code in 10 attempts</h4>
+		<div class="info">
+			
+			<h3 class="guess-info"></h3>
+		</div>
+	</section>
+	<section>
+		<div class="controls">
+			<div class="selections group">
+				<div class="item active-item">
+					<div class="box" data-color="-1" data-id='0'></div>
+					<h4>1</h4>
+				</div>
+				<div class="item">
+					<div class="box" data-color="-1" data-id='1'></div>
+					<h4>2</h4>
+				</div>
+				<div class="item">
+					<div class="box" data-color="-1"  data-id='2'></div>
+					<h4>3</h4>
+				</div>
+				<div class="item">
+					<div class="box" data-color="-1" data-id='3'></div>
+					<h4>4</h4>
+				</div>
+			</div>
+		
+			<div class="color-options">
+
+				<h3>Choose Color</h3>
+				<div class="colors group">
+					<div class="select-color box" data-color="0"></div>
+					<div class="select-color box" data-color="1"></div>
+					<div class="select-color box" data-color="2"></div>
+					<div class="select-color box" data-color="3"></div>
+					<div class="select-color box" data-color="4"></div>
+					<div class="select-color box" data-color="5"></div>
+					<!--
+					<div class="select-color box" data-color="6"></div>
+					<div class="select-color box" data-color="7"></div>
+				-->
+				</div>
+				<div class="guess">
+					<button class="submit-guess" disabled>Check Out</button>
+				</div>
+			</div>
+
+			
+		</div>
+	</section>
+	<section class="log-section">
+		<div class="log">
+			<h2>History of guesses</h2>
+			<div class="log-wrapper">
+			<!--	
+				<div class="log-item">
+					<h3 class="attempt">2</h3>
+					<div class="log-selection">
+						<div class="box" data-color="0" ></div>
+						<div class="box" data-color="4"></div>
+						<div class="box" data-color="5"></div>
+						<div class="box" data-color="6"></div>
+					</div>
+					<div class="selection-info">
+						<h4>2 correct. 1 missplaced</h4>
+					</div>
+				</div>
+				<div class="log-item">
+					<h3 class="attempt">1</h3>
+					<div class="log-selection">
+						<div class="box" data-color="1" ></div>
+						<div class="box" data-color="2"></div>
+						<div class="box" data-color="5"></div>
+						<div class="box" data-color="7"></div>
+					</div>
+					<div class="selection-info">
+						<h4>1 missplaced</h4>
+					</div>
+				</div>
+			-->
+			</div>
+		</div>
+	</section>
+
+
+	<script src="script.js"></script>
+	</body>
+</html>
