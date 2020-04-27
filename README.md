@@ -1,2 +1,2 @@
 # breakthecode
- A version of the masterming game in javascript
+ A version of the mastermind game in javascript
